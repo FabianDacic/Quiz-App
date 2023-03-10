@@ -1,6 +1,6 @@
 # A2 Quiz
 
-## Author: Fabian Dacic (fd222fr)
+## Author: Fabian Dacic
 
 ### Introduction 
 ![Alt text](./img/CoolPicture.jpg)
@@ -12,7 +12,7 @@ My solution begins by having a starting page which requires the user to enter th
 Now to download the game, it is actually quite easy. Either download it straight off [this website](https://gitlab.lnu.se/1dv528/student/fd222fr/a2-quiz) or clone it by using the following commands in Git Bash: 
 
 ```
-git clone git@gitlab.lnu.se:1dv528/student/fd222fr/a2-quiz.git
+git clone [this repo's link]
 ```
 
 After downloading or cloning the repository to your machine, simply open the application with an IDE of your choice and then run the following command in the terminal: 
