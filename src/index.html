@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <title>The Amazing Quiz</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="mainBody">
+        <h1>The 1DV528 Quiz</h1>
+        <div class="column left">
+        </div>
+        <div id = "mainDiv" class="column middle">
+            <div id="mainPage">
+                <h2>Welcome!</h2>
+                <h3>The rules are the following</h3>
+                <ul style="list-style: circle;">
+                    <li>You have 10 seconds to provide an answer per each question.</li>
+                    <li>If you enter a wrong answer, the quiz ends.</li>
+                    <li>If you answer all questions correctly, you win.</li>
+                  </ul>
+                    <input style="color: white;" id="chosenName" onfocus="this.value=''" class="name" type="text" placeholder="Enter name"> 
+                    <button class="proceedButton" onclick="return isEmpty();" id="startButton">Start the quiz</button>
+            </div>
+            <div>
+                <header id ="mainHeader">
+                    <div id = "progressBar" class="round-time-bar" data-style="smooth" style="--duration: 11.1;">
+                        <div>
+                        </div>
+                    </div>
+                    <p id="quizTimer"></p>
+                </header>
+            </div>
+
+            <div id="question">
+                <h1 id="actualQuestion"></h1>
+                <br>
+                <div id="playerAnswer">
+                    <input style="color: white;" class="answer" type="text" onfocus="this.value=''" placeholder="Enter your answer" autocomplete="off">
+                </div>
+                <div id="playerAlternative">
+                    <form id="alternative">
+                    </form>
+                </div>
+                <br>
+                <button id="confirmAnswer">Confirm answer</button>
+            </div>
+
+            <div id="endGame">
+                <h1>Game over!</h1>
+                <button>Try again</button>
+            </div>
+
+            <div id="winner">
+                <h1 class="winnerText">WINNER!</h1>
+                <button>Check the score table</button>
+            </div>
+
+            <div id="scorePage">
+                <h1>Top 5 players of the quiz</h1>
+                <table id="highScoreTable" class="flat-table">
+                    <tbody>
+                      <tr>
+                        <th>Player name</th>
+                        <th>Time elapsed (s)</th>
+                        <th>Score</th>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="column right">
+        </div>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
