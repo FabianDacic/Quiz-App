@@ -1,4 +1,4 @@
-# A2 Quiz
+# The Quiz Application
 
 ## Author: Fabian Dacic
 
