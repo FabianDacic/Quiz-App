@@ -9,7 +9,7 @@ The application is quite intuitive in the sense that
 the design is quite simplistic and the easy to follow. 
 My solution begins by having a starting page which requires the user to enter their name and a button which is required to start the application itself. Once the button or key 'Enter' has been pressed, the application begins by fetching the question from the link that was provided for us in the guide. Based on the type of question it is, the question is represented accoridingly i.e if it is a 'regular' question then only an input box will be shown whereas if it's an alternative-based question, radio buttons will be shown instead. The application waits for the user's answer for 10 seconds and once that time runs out or the user answers wrong, the game ends. Otherwise, it continues on until there are no more questions or the user enters a special answer (hint: The answer to the ultimate question of life, the universe, and everything).
 
-Now to download the game, it is actually quite easy. Either download it straight off [this website](https://gitlab.lnu.se/1dv528/student/fd222fr/a2-quiz) or clone it by using the following commands in Git Bash: 
+Now to download the game, it is actually quite easy. Clone it by using the following commands in Git Bash: 
 
 ```
 git clone [this repo's link]
